@@ -1,0 +1,136 @@
+/*
+ * LAYER.DEV Minimalist Studio Design Tokens
+ * Palette: Gallery Obsidian & Warm Champagne Gold
+ */
+:root {
+  color-scheme: dark;
+
+  /* Background surfaces */
+  --rgb-bg-canvas: 9 9 11;
+  --rgb-bg-canvas-alt: 13 13 16;
+  --rgb-bg-surface: 18 18 22;
+  --rgb-bg-surface-elevated: 24 24 30;
+  --rgb-bg-surface-hover: 31 31 38;
+  --rgb-brand-emerald: 229 199 155;
+  --rgb-brand-emerald-hover: 242 218 182;
+  --rgb-brand-emerald-active: 204 169 120;
+  --rgb-brand-indigo: 161 161 170;
+  --rgb-brand-indigo-hover: 212 212 216;
+  --rgb-brand-cyan: 212 212 216;
+  --rgb-brand-telegram: 42 171 238;
+  --rgb-brand-vk: 0 119 255;
+  --rgb-semantic-nda: 244 63 94;
+  --rgb-semantic-error: 239 68 68;
+
+  --color-bg-canvas: #09090B;
+  --color-bg-canvas-alt: #0D0D10;
+  --color-bg-surface: #121216;
+  --color-bg-surface-elevated: #18181E;
+  --color-bg-surface-hover: #1F1F26;
+  --color-bg-glass: rgba(18, 18, 22, 0.72);
+  --color-bg-glass-strong: rgba(13, 13, 16, 0.88);
+  --color-bg-light-band: #F5F4F0;
+  --color-bg-light-card: #FFFFFF;
+  --color-bg-light-card-hover: #EFECE6;
+
+  /* Borders */
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-border-default: rgba(255, 255, 255, 0.13);
+  --color-border-strong: rgba(255, 255, 255, 0.24);
+  --color-border-accent: rgba(229, 199, 155, 0.42);
+  --color-border-indigo: rgba(255, 255, 255, 0.22);
+  --color-border-light-subtle: rgba(11, 11, 14, 0.09);
+  --color-border-light-strong: rgba(11, 11, 14, 0.18);
+
+  /* Text */
+  --color-text-primary: #F7F6F2;
+  --color-text-secondary: #A1A1AA;
+  --color-text-muted: #71717A;
+  --color-text-inverse-primary: #09090B;
+  --color-text-inverse-secondary: #52525B;
+  --color-text-accent: #E5C79B;
+  --color-text-accent-hover: #F2DAB6;
+
+  /* Brand */
+  --color-brand-emerald: #E5C79B;
+  --color-brand-emerald-hover: #F2DAB6;
+  --color-brand-emerald-active: #CCA978;
+  --color-brand-emerald-tint: rgba(229, 199, 155, 0.12);
+  --color-brand-emerald-glow: rgba(229, 199, 155, 0.24);
+  --color-brand-indigo: #A1A1AA;
+  --color-brand-indigo-hover: #E4E4E7;
+  --color-brand-indigo-tint: rgba(255, 255, 255, 0.08);
+  --color-brand-indigo-glow: rgba(255, 255, 255, 0.14);
+  --color-brand-cyan: #D4D4D8;
+  --color-brand-cyan-tint: rgba(255, 255, 255, 0.08);
+  --color-brand-telegram: #2AABEE;
+  --color-brand-vk: #0077FF;
+
+  /* Semantic */
+  --color-semantic-success: #22C55E;
+  --color-semantic-success-tint: rgba(34, 197, 94, 0.14);
+  --color-semantic-warning: #F59E0B;
+  --color-semantic-warning-tint: rgba(245, 158, 11, 0.14);
+  --color-semantic-error: #EF4444;
+  --color-semantic-error-tint: rgba(239, 68, 68, 0.14);
+  --color-semantic-nda-shield: #F43F5E;
+  --color-semantic-nda-shield-tint: rgba(244, 63, 94, 0.14);
+
+  /* Gradients */
+  --gradient-hero-ambient: radial-gradient(60% 50% at 50% 0%, rgba(229, 199, 155, 0.10) 0%, rgba(255, 255, 255, 0.04) 45%, rgba(9, 9, 11, 0) 100%);
+  --gradient-emerald-button: linear-gradient(135deg, #F5F4F0 0%, #E5C79B 100%);
+  --gradient-bento-border: linear-gradient(135deg, rgba(229, 199, 155, 0.35) 0%, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0.18) 100%);
+  --gradient-text-accent: linear-gradient(90deg, #F7F6F2 0%, #E5C79B 65%, #D4B07B 100%);
+
+  /* Typography */
+  --font-display: 'Unbounded', 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Layout */
+  --container-max-width: 1280px;
+  --container-narrow-width: 960px;
+  --header-height-mobile: 4rem;
+  --header-height-desktop: 4.5rem;
+
+  /* Radii */
+  --radius-xs: 0.375rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-card-hover: 0 16px 36px -12px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(229, 199, 155, 0.25);
+  --shadow-elevated: 0 24px 56px -16px rgba(0, 0, 0, 0.78);
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --shadow-glow-emerald: 0 0 28px -4px rgba(229, 199, 155, 0.32);
+  --shadow-glow-indigo: 0 0 28px -4px rgba(255, 255, 255, 0.14);
+  --shadow-focus-ring: 0 0 0 2px #09090B, 0 0 0 4px #E5C79B;
+  --shadow-focus-ring-light: 0 0 0 2px #FFFFFF, 0 0 0 4px #09090B;
+
+  /* Motion */
+  --duration-instant: 100ms;
+  --duration-fast: 180ms;
+  --duration-normal: 280ms;
+  --duration-slow: 450ms;
+  --duration-reveal: 600ms;
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-Index */
+  --z-base: 0;
+  --z-elevated: 10;
+  --z-sticky: 20;
+  --z-header: 40;
+  --z-dropdown: 50;
+  --z-drawer: 60;
+  --z-modal: 70;
+  --z-toast: 80;
+  --z-tooltip: 90;
+}
